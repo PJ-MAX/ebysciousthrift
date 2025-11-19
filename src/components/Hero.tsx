@@ -8,7 +8,7 @@ return (
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
 <div className="space-y-6">
 <h1 className="text-4xl sm:text-5xl font-extrabold">Ebycious Thrift Store</h1>
-<p className="text-gray-700 max-w-lg">Curated, first-grade ladies' thrift wear — stylish, affordable & ready to shop. Message us on WhatsApp to reserve an item or ask about sizes.</p>
+<p className="text-gray-700 max-w-lg">Curated, first-grade ladies thrift wear — stylish, affordable & ready to shop. Message us on WhatsApp to reserve an item or ask about sizes.</p>
 <div className="flex gap-3">
 <a href={waUrl} target="_blank" rel="noopener noreferrer" className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-3 rounded-md">Message on WhatsApp</a>
 <a href="#products" className="inline-block border border-gray-300 px-5 py-3 rounded-md">Browse looks</a>
