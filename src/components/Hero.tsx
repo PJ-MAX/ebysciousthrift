@@ -24,7 +24,7 @@ return (
 
 <div className="relative">
 <div className="rounded-lg overflow-hidden shadow-lg">
-<img src="/images/hero-1.jpg" alt="Ebycious collection" className="w-full h-72 sm:h-96 object-cover" />
+<img src="/images/hero.jpg" alt="Ebycious collection" className="w-full h-72 sm:h-96 object-cover" />
 </div>
 </div>
 </div>

@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { SITE } from '../constants/site';
+import Image from "next/image";
 
 
 export default function Header() {
@@ -9,7 +10,17 @@ return (
 <header className="fixed inset-x-0 top-0 bg-white/80 backdrop-blur z-40 border-b">
 <div className="container mx-auto flex items-center justify-between py-3 px-4">
 <Link href="#" className="flex items-center gap-3">
-<div className="w-10 h-10 rounded-full bg-gradient-to-br from-rose-500 to-pink-600 flex items-center justify-center text-white font-bold">E</div>
+<div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
+  <Image
+    src="/images/logo.png.jpg"
+    alt="Ebycious Thrift Store Logo"
+    width={40}
+    height={40}
+    className="object-cover"
+    priority
+  />
+</div>
+
 <span className="font-semibold">Ebycious Thrift</span>
 </Link>
 

@@ -19,7 +19,7 @@ return (
 <CategoryCard title="Dresses" />
 <CategoryCard title="Tops" />
 <CategoryCard title="Jackets" />
-<CategoryCard title="Accessories" />
+{/* <CategoryCard title="Accessories" /> */}
 </div>
 </section>
 
@@ -31,12 +31,12 @@ return (
 
 
 <section id="about" className="my-12">
-<h2 className="text-2xl font-semibold mb-4">About Ebycious</h2>
+<h2 className="text-2xl font-semibold mb-4">About Ebycious Thrift Store</h2>
 <p className="text-gray-700 max-w-3xl">We curate first-grade ladies thrift wear — inspected, cleaned and styled for modern wardrobes. Message us on WhatsApp to reserve or ask about sizes and availability.</p>
 </section>
 
 
-<section id="location" className="my-12">
+<section id="" className="my-12">
 <h2 className="text-2xl font-semibold mb-4">Location & directions</h2>
 <MapBlock />
 </section>
